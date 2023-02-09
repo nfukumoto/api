@@ -26,6 +26,7 @@ public class Paciente {
     private Boolean ativo;
 
     public Paciente(DadosCadastroPaciente dados) {
+        this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
         this.cpf = dados.cpf();
